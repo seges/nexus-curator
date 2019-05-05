@@ -1,0 +1,10 @@
+[package]
+name = "nexus-curator"
+version = "0.1.0"
+authors = ["Ladislav Gazo <gazo@seges.sk>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.16"
+serde = { version = "1.0", features = ["derive"] }
+semver_rs = "0.1.3"
